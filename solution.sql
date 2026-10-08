@@ -1,4 +1,6 @@
-CREATE PROCEDURE AddNumbers()
+CREATE database jecin;
+use jecin;
+create PROCEDURE AddNumbers()
 BEGIN
     DECLARE num1 INT DEFAULT 10;
     DECLARE num2 INT DEFAULT 20;
